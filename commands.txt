@@ -1,0 +1,13 @@
+Compress and Decompress Text File
+
+Command: python main.py --input sample.txt --compress --text
+
+
+Command: python main.py --input sample.bin --mapping mapping.npy --text --decompress
+
+
+Compress and Decompress Image File
+
+Command: python main.py --image --input sampleimage.png --compress
+
+command: python main.py --image --input sampleimage_compressed.txt --decompress
