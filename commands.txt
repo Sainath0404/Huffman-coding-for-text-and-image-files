@@ -1,13 +1,21 @@
-Compress and Decompress Text File
+compression and decompression of text and image files using huffman coding:
+The following commands should be run in the powershell window to check the output of the project.
+After downloading the files from the github, open Powershell window and then paste the commands below and then press ENTER to see the desired output
 
-Command: python main.py --input sample.txt --compress --text
+Text files compression and decompression:
+
+The below two commands are used to see the output of text files
+
+text files compression Command: python main.py --input sample.txt --compress --text
 
 
-Command: python main.py --input sample.bin --mapping mapping.npy --text --decompress
+text files decompression Command: python main.py --input sample.bin --mapping mapping.npy --text --decompress
 
 
-Compress and Decompress Image File
+Image files compression and decompression:
 
-Command: python main.py --image --input sampleimage.png --compress
+The below two commands are used to see the output of image files
 
-command: python main.py --image --input sampleimage_compressed.txt --decompress
+image files compression Command: python main.py --image --input sampleimage.png --compress
+
+image files decompression command: python main.py --image --input sampleimage_compressed.txt --decompress
