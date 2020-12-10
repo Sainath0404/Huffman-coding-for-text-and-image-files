@@ -1,3 +1,9 @@
+PS C:\Users\ksain\OneDrive\Desktop\huffman_Compress_Decompress> python main.py --input sample.txt --compress --text
+Compression is done
+Compressed file path: sample.bin
+PS C:\Users\ksain\OneDrive\Desktop\huffman_Compress_Decompress> python main.py --input sample.bin --mapping mapping.npy --text --decompress
+Decompression is done
+Decompressed file path: sample_decompressed.txt
 PS C:\Users\ksain\OneDrive\Desktop\huffman_Compress_Decompress> python main.py --image --input sampleimage.png --compress
 Compressing "sampleimage.png" -> "sampleimage_compressed.txt"
 Image dimensions: (height=434, width=1280)
